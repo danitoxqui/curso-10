@@ -5,7 +5,7 @@ export class UsuarioModel {
   email: string;
   password: string;
   nombre: string;
-//
+
   constructor() {
     this.email = ''; // Inicializar la propiedad "email" con un valor predeterminado
     this.password = ''; // Inicializar la propiedad "password" con un valor predeterminado
