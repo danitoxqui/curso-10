@@ -24,6 +24,7 @@ import { LoginComponent } from './pages/login/login.component';
     HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  prompt:[]
 })
 export class AppModule { }
