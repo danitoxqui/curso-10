@@ -21,10 +21,10 @@ usuario: UsuarioModel= new UsuarioModel();
 
     if ( form.invalid){ return; }
 
-    this.auth.login( this.usuario).subscribe( resp =>{
-      console.log(resp);
-    }, (err) =>{
-      console.log(err.error.error.message);
-    });
+    this.auth.login( this.usuario).subscribe( res =>{
+      console.log(res);
+    }, (er) =>{
+      console.log(er.error.error.message);
+    })
   }
 }
